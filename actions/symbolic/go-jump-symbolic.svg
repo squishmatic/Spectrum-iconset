@@ -1,62 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   version="1.1"
-   width="16"
-   height="16"
-   id="svg7384"
-   inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="go-jump-symbolic.svg">
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1280"
-     inkscape:window-height="752"
-     id="namedview7"
-     showgrid="true"
-     inkscape:zoom="34.875"
-     inkscape:cx="10.322581"
-     inkscape:cy="8"
-     inkscape:window-x="0"
-     inkscape:window-y="26"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg7384">
-    <inkscape:grid
-       type="xygrid"
-       id="grid3020" />
-  </sodipodi:namedview>
-  <title
-     id="title9167">Gnome Symbolic Icon Theme</title>
-  <defs
-     id="defs11" />
-  <metadata
-     id="metadata90">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title>Gnome Symbolic Icon Theme</dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <path
-     style="text-indent:0;text-transform:none;block-progression:tb;opacity:0.9;color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-     d="M 8 1.03125 C 4.1467 1.03125 1.03125 4.1467 1.03125 8 C 1.03125 11.8533 4.1467 14.96875 8 14.96875 C 11.8533 14.96875 14.96875 11.8533 14.96875 8 C 14.96875 4.1467 11.8533 1.03125 8 1.03125 z M 8 3.96875 L 13 8 L 8 12 L 8 9 L 4 9 L 4 7 L 8 7 L 8 3.96875 z "
-     id="path10839-3" />
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+    <g font-weight="400" fill="#474747">
+        <path d="M6.5 2A3.515 3.515 0 0 0 3 5.5V6h2v-.5C5 4.66 5.66 4 6.5 4S8 4.66 8 5.5V12h2V5.5C10 3.579 8.421 2 6.5 2z" style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal;marker:none" color="#000" font-family="sans-serif" white-space="normal" overflow="visible"/>
+        <path d="M13 9h-1c-.257 0-.528.13-.719.313L9 11.593l-2.281-2.28C6.529 9.13 6.257 9 6 9H5v1c0 .31.09.552.281.75L9 14.406l3.719-3.656c.19-.198.281-.44.281-.75z" style="line-height:normal;-inkscape-font-specification:'Bitstream Vera Sans';text-indent:0;text-align:start;text-decoration-line:none;text-transform:none;marker:none" color="#bebebe" font-family="Bitstream Vera Sans" overflow="visible"/>
+    </g>
 </svg>

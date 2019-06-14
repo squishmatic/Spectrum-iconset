@@ -15,7 +15,6 @@ elementaryicons-3.1
 Original source code from elementary icons https://launchpad.net/elementaryicons/3.x/3.1
 
 
-
 Daniel Foré <daniel@elementaryos.org>
 
 Copyright 2007-2013 elementary LLC.
@@ -37,8 +36,7 @@ Icons based on Tango sources or taken from the Tango project are public domain.
 You can visit the Tango project website here: <http://tango.freedesktop.org/Tango_Desktop_Project>
 
 
-Contributors
-============
+Contributors:
 
 Sebastian Porta <sebastianporta@gmail.com>
 Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
@@ -47,3 +45,32 @@ Dennis Fisher
 Caleb Riley "spiceofdesign" <spiceofdesign@gmail.com>
 Simon "Ochosi" Steinbeiß <simon@xfce.org>
 Cassidy James <cassidy@elementaryos.org>
+
+
+
+adwaita-icon-theme  symbolic
+=================================
+
+Original source code from Adwaita icon theme https://gitlab.gnome.org/GNOME/adwaita-icon-theme
+
+
+http://www.gnome.org
+
+This work is licenced under the terms of either the GNU LGPL v3 or
+Creative Commons Attribution-Share Alike 3.0 United States License.
+
+To view a copy of the CC-BY-SA licence, visit
+http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative
+Commons, 171 Second Street, Suite 300, San Francisco, California 94105, USA.
+
+
+Contributors:
+
+Claire Alexander <claire.alexander@intel.com>
+Hylke Bons <hylke.bons@intel.com>
+Darren Wilson <darren.wilson@intel.com>
+
+Jakub Steiner <jimmac@novell.com>
+Lapo Calamandrei <calamandrei@gmail.com>
+Hylke Bons <hylke.bons@intel.com>
+Sam Hewitt <hewittsamuel@gmail.com>
