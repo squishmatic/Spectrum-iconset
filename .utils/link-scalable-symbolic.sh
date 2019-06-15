@@ -35,7 +35,7 @@ do
     do
         FILENAME=`basename $FILE`
         ln -s $FILE "${FILENAME/-symbolic/}" 
-        echo -e "${FILE} ${FILENAME/-symbolic/}"
+        echo -e "${FILE}  ${FILENAME/-symbolic/}"
     done
 
     cd ..
