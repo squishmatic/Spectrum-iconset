@@ -29,9 +29,6 @@ SRC=$(realpath $SRC)
 DST=$([ $2 ] && echo $2 || echo "found")
 DST=$(realpath $DST)
 
-echo -e $SRC
-echo -e $DST
-
 mkdir -p $DST
 cd $SRC
 
