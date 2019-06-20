@@ -16,27 +16,14 @@
 #  along with this program; if not, see <http://www.gnu.org/licenses>.
 #
 
-if [ "x$1" = "x" ]
-then
-    printf '\t%s\n' ""
-    printf '\t%s\n\n' "Usage within the context icon theme directory:"
-    printf '\t%s\n\n' " link-scalable-symbolic.sh [directory size(s)] ..."
-    printf '\t%s\n' ""
-    exit 1
-fi
 
-for SIZE in "$@";
-do
-    echo -e "${SIZE}"
-    mkdir -p $SIZE
-    cd $SIZE
+ICONS=`find -name *.svg -type f`
 
-    for FILE in ../symbolic/*.svg;
-    do
-        FILENAME=`basename $FILE`
-        ln -s $FILE "${FILENAME/-symbolic/}" 
-        echo -e "${FILE}  >  ${FILENAME/-symbolic/}"
-    done
+for ICON in $ICONS; do
+    sed 's/'#3c3c3c'/'#000000'/g' $ICON > "${ICON/.svg/_edit}.svg"
+    rm $ICON
+    mv "${ICON/.svg/_edit}.svg" $ICON
 
-    cd ..
+    echo -e "edit ${ICON}"
 done
+

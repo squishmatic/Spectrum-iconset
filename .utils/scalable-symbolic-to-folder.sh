@@ -19,7 +19,7 @@
 
 # genericize battery icons
 
-FLINKS=`find -name "unity*" -type f`
+SSLINKS=`find . -name "*-symbolic.svg" -type f`
 SLINKS=`find -name "unity*" -type l`
 
 for FLINK in $FLINKS;
@@ -59,7 +59,7 @@ rm unity-battery_plugged.svg
 ln -s ac-adapter-symbolic.svg unity-battery_plugged.svg
 
 
-find broken symbolic links
+#find broken symbolic links
 
 LINKS=`find -type l`
 
@@ -76,14 +76,4 @@ done
 # add missing symbolic links
 
 ln -s ac-adapter-symbolic.svg ac-adapter.svg
-
-ln -s audio-input-microphone-high-panel.svg audio-input-microphone-high-symbolic.svg
-ln -s audio-input-microphone-low-zero-panel.svg audio-input-microphone-low-zero-symbolic.svg
-ln -s audio-output-none-panel.svg audio-output-none-symbolic.svg
-ln -s audio-volume-high-panel.svg audio-volume-high-symbolic.svg
-ln -s audio-volume-low-panel.svg audio-volume-low-symbolic.svg
-ln -s audio-volume-low-zero-panel.svg audio-volume-low-zero-symbolic.svg
-ln -s audio-volume-medium-panel.svg audio-volume-medium-symbolic.svg
-ln -s audio-volume-muted-blocking-panel.svg audio-volume-muted-blocking-symbolic.svg
-ln -s audio-volume-muted-panel.svg audio-volume-muted-symbolic.svg
 
